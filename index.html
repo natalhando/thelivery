@@ -1,0 +1,100 @@
+<!--
+    Projeto elaborado para a segunda etapa da selecao do TheLivery
+    Por Natalia Pinheiro da Silva
+    Criado em 30/03/2020
+    Ultima modificacao 31/03/2020
+-->
+
+<!DOCTYPE html>
+<html>
+    <head lang="pt-br">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>TheLivery +Cashback</title>
+
+        <link href="img/favicon.png" rel="icon" type="image/jpeg">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-fixa">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onClick="rolaPagina(0)"><img src="img/logo.png" alt="TheLivery" height="30px"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="botao-1" href="#" onClick="rolaPagina(1)">O TheLivery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="botao-2" href="#" onClick="rolaPagina(2)">Cashback</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+       
+        <header>
+            <div class="container">
+                <img src="img/logo-alt.png" alt="TheLivery">
+                <h1>Nós valorizamos seu dinheiro</h1>
+                <h6>Peça no TheLivery e receba dinheiro de volta</h6>
+                <div class="container-btn" id="nav-header">
+                    <button type="button" class="btn btn-header" onClick="rolaPagina(1)">O TheLivery</button>
+                    <button type="button" class="btn btn-header" onClick="rolaPagina(2)">Cashback</button>
+                </div>
+            </div>
+            <div id="divisoria0-1"></div>
+        </header>
+        
+        
+
+        <div id="secao1" class="secao">
+            <div class="container">
+                <h2>Na palma da sua mão!</h2>
+                <div class="textlivery">
+                    <h5>Pense em uma <span>comida</span>... Do <span>pãozinho</span> ao <span>sushi</span>, você encontra tudo aqui!</h5>
+                    <p>No aplicativo TheLivery, você pode matar a sua fome em pouco tempo e com muita comodidade, do conforto da sua casa, do seu trabalho, de onde estiver!<br/><br/></p>
+                    <div class="btn-app">
+                        <a href="https://play.google.com/store/apps/details?id=br.com.thelivery">Baixe o app!</a>
+                    </div>
+                </div>
+            </div>
+            <div id="divisoria1-2"></div>
+        </div>
+
+        <div id="secao2" class="secao">
+            <div class="container">
+                <h2>Agora com <span>cashback</span>!</h2>
+                <p>Com a função de <i>cashback</i>, em cada compra efetuada pelo TheLivery, independente das características do pedido, 
+                o usuário tem garantida uma porcentagem do dinheiro de volta. E quanto mais vezes comprar, maior é essa porcentagem. 
+                O cashback é vantajoso para clientes e restaurantes, uma vez que, além de valorizar o dinheiro do cliente, é também 
+                uma maneira atual de conquistá-lo e fazer com que ele continue usando o serviço. </p>
+                <div class="card-deck">
+                    <div class="card cartaozinho">
+                        <h3 class="titulo-card">Faça compras no aplicativo</h3>
+                    </div>
+                    <div class="card cartaozinho">
+                        <h3 class="titulo-card">Acumule pontos a cada compra</h3>
+                    </div>
+                    <div class="card cartaozinho">
+                        <h3 class="titulo-card">Quanto mais pontos, maior o cashback!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+        
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
